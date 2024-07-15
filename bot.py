@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 
 # Configuração de e-mail
 email_sender = 'vinxxxxxx06@gmail.com'
-email_password = 'xxxxxxxxxx'  # Certifique-se de que não há espaços na senha
+email_password = 'xxxxxxxxxx'  # Senha do App
 email_receivers = ['felipe.guarana@xxxxx.com.br','sergio@xxxxxx.com.br','guilherme.ferreira@xxxxx.com.br', 'mmicalli@xxxxxx.com.br']
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
