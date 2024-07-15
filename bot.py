@@ -2,6 +2,7 @@ import requests
 import time
 from datetime import datetime
 import smtplib
+import sys
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -52,7 +53,7 @@ def check_correios_api():
                 time.sleep(3600)  # Dormir por 1 hora (3600 segundos)
         else:
             log_message("Fora do horário de funcionamento. Encerrando...")
-            break
+            sys.exit()
 
 def log_message(message):
     print(f"{datetime.now()}: {message}")
